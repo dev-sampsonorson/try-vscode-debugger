@@ -11,4 +11,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'try-vscode-debugger';
+
+  constructor() {
+    console.log(this.title + ' hello');
+  }
+
+  ngOnInit(): void {
+    console.log('ngOnInit')
+  }
 }
